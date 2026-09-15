@@ -119,16 +119,5 @@ header {
 
 
 
-.hero section{
-    width: 100px;
-    height: 600px;
-    overflow: hidden;
-}
 
-.hero-section video {
-    width: 100vw;
-    height: 1000px;
-    object-fit: cover;
-    display: block;
- }
 
