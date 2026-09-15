@@ -35,7 +35,8 @@ text-align: left;
 
  .hero-description {
     font-size: 30px;
-    width: 400px;
+    width: 500px;
+    text-align: center;
  }
 
  .buy-buttom{
