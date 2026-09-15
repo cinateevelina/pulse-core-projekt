@@ -35,3 +35,22 @@ text-align: left;
     font-size: 30px;
     width: 400px;
  }
+
+ .buy-buttom{
+    position: fixed;
+
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background-color: #1DEF27;
+    border-radius: 12px;
+    font-size: 24px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 10px;
+    box-shadow: 5px 5px 25px black;
+ }
+
+ .buy-buttom:hover{
+    transform: translateX(-50%) scale(1.1);
+ }
