@@ -5,13 +5,102 @@ box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     color: #000;
     background-color: rgb(17, 44, 4);
     margin: 0;
     padding: 0;
 }
+
+header {
+    background-color: #2c7036;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.navbar{
+   background-color: black;
+   width: 70%;
+   height: 80px;
+   margin: 20px auto;
+   border-radius: 50px;
+
+   top: -70px;
+   position: relative;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+/* PULSE PRO TEKSTEN */
+
+.tekst{
+    color: white;
+    font-family: barlow semi condensed, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    transform: translateY(15px);
+}
+
+.tekst span {
+    font-size: 20px;
+    font-style: italic;
+    margin-left: 30px;
+}
+
+/* DE 3 STREGER I MIDTEN AF KNAPPEN */
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    transform: translateY(15px);
+}
+
+.menu span {
+    width: 70px;
+    height: 8px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* KONTAKT SKRIFTEN I KNAPPEN */
+
+.kontakt {
+    color: white;
+    font-family: barlow semi condensed, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    transform: translateY(15px);
+}
+
+/* DETTE GØR AT KNAPPEN GÅR UD OVER KANTEN ØVERST */
+
+.top {
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-logo{
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+
+    position: relative;
+    top: -40px;
+    left: -10px;
+}
+
+
+
+
+
 
 .hero section{
     width: 100px;
