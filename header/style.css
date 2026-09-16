@@ -8,13 +8,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     color: #000;
-    background-color: rgb(214, 220, 225);
+    background-color: rgba(4, 52, 13, 0.838) !important;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #5df97253;
+    background-color: #18043e53;
     padding: 20px;
     text-align: center;
     border-bottom: 1px solid #ccc;
@@ -89,11 +89,11 @@ header {
 }
 
 .header-logo{
-    width: 100px;
+    width: 140px;
     height: 100px;
     position: absolute;
-    top: -30px;
-    left: -20px;
+    top: -25px;
+    left: -10px;
     display: block;
 }
 

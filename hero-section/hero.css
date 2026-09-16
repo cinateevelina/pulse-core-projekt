@@ -16,21 +16,21 @@
  }
 
  .hero-text{
-position: absolute;
-top: 10%;
-left: 6%;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-
-color: white;
-z-index: 2;
-text-align: left;
+   position: absolute;
+   top: 10%;
+   left: 6%;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+   color: white;
+   z-index: 2;
+   text-align: left;
  }
 
  .hero-text h1{
     font-size: 90px;
     margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
  }
 
  .hero-description {
