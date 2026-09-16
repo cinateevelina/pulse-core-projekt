@@ -1,23 +1,23 @@
 
 
 .box-section{
-    width: 575px;
+    width: 100%;
     height: 700px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    background-color: #3D6B4F;
 }
 
 
 .box{
     width: 575px;
     height: 300px;
+
     background-color: rgb(52, 223, 74);
     border-radius: 10px;
     box-shadow: 10px 10px 22px black;
     position: relative;
-      background:
+
+background:
     radial-gradient(
       circle at center,
       rgb(52, 223, 74) 0%,
@@ -334,8 +334,8 @@
     background-color:#000000;
     border-radius: 50%;
     position: absolute;
-    top: -240px;
-    left: 40px;
+    top: 350px;
+    left: -100px;
     box-shadow: 12px 12px 7px rgba(0, 0, 0, 0.3);
     
     display: flex;
@@ -352,8 +352,8 @@
     background-color:#000000;
     border-radius: 50%;
     position: absolute;
-    top: -150px;
-    left: 600px;
+    top: 400px;
+    left: 350px;
     box-shadow: 12px 12px 7px rgba(0, 0, 0, 0.3);
 
     display: flex;
@@ -371,7 +371,7 @@
     background-color:#000000;
     border-radius: 50%;
     position: absolute;
-    top: 225px;
+    top: 100px;
     left: 600px;
     box-shadow: 12px 12px 7px rgba(0, 0, 0, 0.3);
 
@@ -382,8 +382,15 @@
     text-align: center;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
-    
 }
+
+.circle1,
+.circle2,
+.circle3{
+    padding: 30px 40px;
+    text-align: center;
+}
+
 
 .bracelet{
     width: 400px;
@@ -392,3 +399,22 @@
     left: 950px
 }
 
+
+.phone{
+    width: 250px;
+    height: auto;
+
+    position: absolute;
+    right: 40px;
+    top: 33%;
+    transform: perspective(800px) rotateY(-15deg) rotateZ(5deg);
+
+    filter: drop-shadow(15px 20px 12px rgba(0, 0, 0, 0.5));
+}
+
+.circle-number{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(52, 223, 74);
+    margin-bottom: 10px;
+}
