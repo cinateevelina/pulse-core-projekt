@@ -38,7 +38,7 @@ h5 {
     font-size: 32px;
     color: #ffffff;
 }
-h52 {
+.overskrift {
     font-family: "Barlow Semi Condensed", sans-serif;
     font-weight: 900;
     font-size: 32px;
@@ -52,7 +52,7 @@ h52 {
     left: -70px;
     width: 300px;
 }
-p1 {
+.copyright {
     font-family: Arial, sans-serif;
     font-weight: 50;
     font-size: 12px;
@@ -60,7 +60,7 @@ p1 {
 }
 .footer-tabel {
     justify-content: space-between;
-    align-items: top;
+    align-items: flex-start;
     display: flex;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 50px;
