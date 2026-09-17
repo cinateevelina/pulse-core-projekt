@@ -186,6 +186,32 @@ header {
     transition: transform 0.2s ease;
 }
 
+.navbar {
+    position: fixed;
+    z-index: 99;
+    margin-top: 25px;
+
+}
+
+img.header-logo {
+    position: fixed;
+    z-index: 99;
+    margin-top: 18px;
+}
+
+.cart-icon {
+    position: fixed;
+    z-index: 99;
+    margin-top: 3px;
+    right: 120px;
+}
+
+.profile-icon {
+    position: fixed;
+    z-index: 99;
+    right: 40px;
+}
+
 
 
 
